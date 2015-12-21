@@ -8,6 +8,7 @@ from sys import stdout
 ############ Dor Cohen (dordchn@gmail.com) ##############
 
 rows, cols = os.popen('stty size', 'r').read().split()
+rows = int(rows)
 cols = int(cols)
 
 bubble0=['      OOOOOOOO      ',
@@ -48,6 +49,10 @@ bubbles.append(bubble1);
 # bubbles.append(bubble3);
 
 ##################################################################################
+
+os.system("clear")
+cleaner='\n'*rows
+print cleaner
 
 bl_row=-1
 bl_x=-1
