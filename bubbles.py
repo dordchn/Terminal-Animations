@@ -12,20 +12,20 @@ rows = int(rows)
 cols = int(cols)
 
 bubble0=['      OOOOOOOO      ',
-		 '    OO     xx OO    ',
-		 '   O         x  O   ',
-		 '   O          x O   ',
-		 '    OO        OO    ',
-		 '      OOOOOOOO      ',]
+	 '    OO     xx OO    ',
+	 '   O         x  O   ',
+	 '   O          x O   ',
+	 '    OO        OO    ',
+	 '      OOOOOOOO      ',]
 
 bubble1=['      OOOOOOOOOOOO      ',
-		 '    OO         x  OO    ',
-		 '   O            xx  O   ',
-		 '   O             x  O   ',
-		 '   O              x O   ',
-		 '   O                O   ',
-		 '    OO            OO    ',
-		 '      OOOOOOOOOOOO      ',]
+	 '    OO         x  OO    ',
+	 '   O            xx  O   ',
+	 '   O             x  O   ',
+	 '   O              x O   ',
+	 '   O                O   ',
+	 '    OO            OO    ',
+	 '      OOOOOOOOOOOO      ',]
 
 bubble2=['============================ ',
          '  ______    ______   _____   ',
@@ -40,13 +40,13 @@ bubble3=['      OOOO      ',
          '    OO  x OO    ',
          '   O     x  O   ',
          '    OO    OO    ',
-		 '      OOOO      ']
+	 '      OOOO      ']
 
 bubbles=[]
 bubbles.append(bubble0);
 bubbles.append(bubble1);
 # bubbles.append(bubble2);
-# bubbles.append(bubble3);
+bubbles.append(bubble3);
 
 ##################################################################################
 
